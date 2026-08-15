@@ -116,6 +116,10 @@ input,select{font-family:inherit;}
   transition:width 0.25s ease;
 }
 .nav-links a:hover::after{width:100%;}
+.nav-links a.active{opacity:1;}
+.nav-links a.active::after{width:100%;}
+.nav-links a.active{opacity:1;}
+.nav-links a.active::after{width:100%;}
 .nav-cta{
   display:flex;
   align-items:center;
